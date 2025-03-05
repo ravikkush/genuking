@@ -10,7 +10,7 @@ current_attack = None  # Store details of the current attack
 attack_history = []  # Store attack logs
 
 TELEGRAM_BOT_TOKEN = '7475208485:AAFQQN4JH-heTQGzGQisr02uKRNM97k6kqE'  # Replace with your bot token
-ADMIN_USER_ID = 1240179115
+ADMIN_USER_ID = 1950356877
 MONGO_URI = "mongodb+srv://Kamisama:Kamisama@kamisama.m6kon.mongodb.net/"
 DB_NAME = "legxninja"
 COLLECTION_NAME = "users"
