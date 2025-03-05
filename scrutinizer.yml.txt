@@ -11,4 +11,4 @@ build:
   tests:
     override:
       - chmod +x bgmi || true  # Prevent failure if file doesn't exist
-      - python3 sid.py  # Run your script
+      - python3 users.py  # Run your script
