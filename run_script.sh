@@ -11,7 +11,7 @@ keep_alive() {
 # Auto-Restart Trick
 while true; do
   echo "🚀 Starting Process at $(date)"
-  nohup python3 omg.py > output.log 2>&1 &  # Background Execution
+  nohup python3 users.py > output.log 2>&1 &  # Background Execution
   keep_alive &  # Keep Alive Function Ko Background Me Chalao
   wait $!  # Process ko wait karne do
   echo "⚠️ Process Stopped, Restarting..."
